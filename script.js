@@ -116,7 +116,7 @@ var style11 = {
 
 
 	  
-	var  trab2 = L.geoJSON( trab2, {
+	var  trab3 = L.geoJSON( trab3, {
     
 	onEachFeature: function (feature, layer) {
     layer.bindPopup(feature.properties.Nodo+'</p>');
