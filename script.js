@@ -116,7 +116,7 @@ var style11 = {
 
 
 	  
-	var  trab = L.geoJSON( trab, {
+	var  trab2 = L.geoJSON( trab2, {
     
 	onEachFeature: function (feature, layer) {
     layer.bindPopup(feature.properties.Nodo+'</p>');
@@ -129,8 +129,10 @@ var style11 = {
                   d == 2  ? {color: '#BD0026', opacity:0.7} :
                   d == 3  ? {color: '#E31A1C', opacity:0.7} :    
 			    	d == 4  ? {color: '#1C97E7', opacity:0.7} :  
-					
-					 
+			        d == 5  ? {color: '#7E1CB0', opacity:0.7} :
+			        d == 6  ? {color: '#059687 ', opacity:0.7} :
+	                        d == 7  ? {color: '#034A0F ', opacity:0.7} :
+				d == 8  ? {color: '#A8680C  ', opacity:0.7} : 
 					 
 					  {color: '#FFEDA0', opacity:0.7};
          }
